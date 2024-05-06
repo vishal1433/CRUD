@@ -2,8 +2,25 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose');
 
+
 const router = require('./routes/product.routes');
 app.use(express.json());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 app.use("/api/products",router)
 
